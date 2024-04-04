@@ -1,13 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
 import type { NextPage } from "next";
-import { useAccount, useBalance, useContractRead, useNetwork, useSignMessage } from "wagmi";
-import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+// import { useAccount, useBalance, useContractRead, useNetwork, useSignMessage } from "wagmi";
+// import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import RandomWord from "~~/components/RandomWord";
 import WalletInfo from "~~/components/WalletInfo";
-import { Address } from "~~/components/scaffold-eth";
 
 const Home: NextPage = () => {
   return (
